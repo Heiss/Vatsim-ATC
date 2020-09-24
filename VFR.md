@@ -76,7 +76,7 @@ Verlässt man nicht die Platzrunde, sondern will Platzrunden drehen, so meldet m
 
 | Pos. | Nachricht                                                                                                                     |
 |------|-------------------------------------------------------------------------------------------------------------------------------|
-| P    | `DHS`, im Gegenanflug zur Piste `17`, `<zum Aufsetzen und Durchstarten | zur Landung>.`                                       |
+| P    | `DHS`, im Gegenanflug zur Piste `17`, `<zum Aufsetzen und Durchstarten / zur Landung>.`                                       |
 | I    | `DHS`, verstanden, melden Sie Queranflug, `<achten Sie auf Segelflugzeug / Fallschirmspringer / Maschine im Startlauf / ...>` |
 | P    | `DHS`, Queranflug Piste `17`.                                                                                                 |
 | I    | `DHS`, verstanden, melden Sie den Endanflug Piste `17`.                                                                       |

@@ -5,27 +5,27 @@
 Rollen: P - Pilot, G - Ground, T - Tower
 
 ### Abflug
-| Pos. | Nachricht                                                                                                                             |
-|------|---------------------------------------------------------------------------------------------------------------------------------------|
-| P    | `Münster Rollkontrolle` , `DEPHS`, Guten Tag.                                                                                         |
-| G    | `DEPHS`, `Münster Rollkontrolle`, Moin.                                                                                               |
-| P    | `DEPHS`, `Cessna 172`, `Abstellplatz allgemeinen Luftfahrt`, `<VFR über Tango / Platzrunden>`, `Information Charlie`, erbitte Rollen. |
-| G    | `DHS`, *Wind 180/8 Knoten*, Qnh `1011`, rollen Sie zum Rollhalt Piste `25` über `Alpha`.                                              |
-| P    | `DHS`, Qnh `1011`, rolle zum Rollhalt Piste `25` über `Alpha`.                                                                        |
-|      |                                                                                                                                       |
-| P    | `DHS`, abflugbereit.                                                                                                                  |
-| G    | `DHS`, verstanden, rufen Sie Turm auf Frequenz `126,85`.                                                                              |
-| P    | `DHS`, rufe Turm auf Frequenz `126,85`.                                                                                               |
-|      |                                                                                                                                       |
-| P    | `Münster Turm`, `DEPHS`, Rollhalt Piste `25`, auf Rollbahn `Alpha`, abflugbereit.                                                     |
-| T    | `DEPHS`, `Münster Turm`, `<hinter landender Cessna 172 im Queranflug>` rollen Sie zum Abflugpunkt Piste `25`.                         |
-| P    | `DEPHS`, `<hinter landender Cessna 172>` rolle zum Abflugpunkt `25`.                                                                  |
-| T    | `DHS`, verlassen Sie die Kontrollzone über `Tango`, fliegen Sie rechte Platzrunde, *Wind 190/7 Knoten*, Start frei Piste `25`         |
-| P    | `DHS`, verlasse Kontrollzone über `Tango`, fliege rechte Platzrunde, Start frei Piste `25`                                            |
-|      |                                                                                                                                       |
-| P    | `DHS`, Pos. `Tango`, Flughöhe `2000` Fuss.                                                                                            |
-| T    | `DHS`, verstanden, verlassen der Frequenz genehmigt                                                                                   |
-| P    | `DHS`, Verlassen der Frequenz genehmigt, *Schönen Tag.*                                                                               |
+| Pos. | Nachricht                                                                                                                                                 |
+|------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| P    | `Münster Rollkontrolle` , `DEPHS`, Guten Tag.                                                                                                             |
+| G    | `DEPHS`, `Münster Rollkontrolle`, Moin.                                                                                                                   |
+| P    | `DEPHS`, `Cessna 172`, `Abstellplatz allgemeinen Luftfahrt`, `<VFR über Tango / Platzrunden>`, `Information Charlie`, erbitte Rollen.                     |
+| G    | `DHS`, *Wind 180/8 Knoten*, Qnh `1011`, rollen Sie zum Rollhalt Piste `25` über `Alpha`.                                                                  |
+| P    | `DHS`, Qnh `1011`, rolle zum Rollhalt Piste `25` über `Alpha`.                                                                                            |
+|      |                                                                                                                                                           |
+| P    | `DHS`, abflugbereit.                                                                                                                                      |
+| G    | `DHS`, verstanden, rufen Sie Turm auf Frequenz `126,85`.                                                                                                  |
+| P    | `DHS`, rufe Turm auf Frequenz `126,85`.                                                                                                                   |
+|      |                                                                                                                                                           |
+| P    | `Münster Turm`, `DEPHS`, Rollhalt Piste `25`, abflugbereit.                                                                                               |
+| T    | `DEPHS`, `Münster Turm`, `<hinter landender Cessna 172 im Queranflug>` rollen Sie zum Abflugpunkt Piste `25`.                                             |
+| P    | `DEPHS`, `<hinter landender Cessna 172>` rolle zum Abflugpunkt `25`.                                                                                      |
+| T    | `DHS`, verlassen Sie die Kontrollzone über `Tango`, `<fliegen Sie rechte Platzrunde / Rechtskurve genehmigt>`, *Wind 190/7 Knoten*, Start frei Piste `25` |
+| P    | `DHS`, verlasse Kontrollzone über `Tango`, `<fliege rechte Platzrunde / Rechtskurve genehmigt>`, Start frei Piste `25`                                    |
+|      |                                                                                                                                                           |
+| P    | `DHS`, Pos. `Tango`, Flughöhe `2000` Fuss.                                                                                                                |
+| T    | `DHS`, verstanden, verlassen der Frequenz genehmigt                                                                                                       |
+| P    | `DHS`, Verlassen der Frequenz genehmigt, *Schönen Tag.*                                                                                                   |
 
 ### Anflug
 
@@ -40,7 +40,7 @@ Rollen: P - Pilot, G - Ground, T - Tower
 | P    | `DEPHS`, Pos. `Tango`, Flughöhe `2000` Fuss.                                                                                              |
 | T    | `DHS`, verstanden, `<Verkehr eine Beech Bonanza auf Gegenkurs>`                                                                           |
 | P    | `DHS`, `<Verkehr in Sicht, halte Ausschau>`                                                                                               |
-| T    | `DHS`, fliegen Sie in die rechte Platzrunde Piste `25`, *melden Sie rechten Gegenanflug*.                                                 |
+| T    | `DHS`, fliegen Sie in die rechte Platzrunde Piste `25`, *melden Sie (rechten) Gegenanflug*.                                               |
 | P    | `DHS`, fliege in die rechte Platzrunde Piste `25`.                                                                                        |
 |      |                                                                                                                                           |
 | P    | `DHS`, rechter Gegenanflug Piste `25`.                                                                                                    |
@@ -60,23 +60,24 @@ Rollen: P - Pilot, G - Ground, T - Tower
 Rollen: P = Pilot, I = Info
 
 ### Abflug
-| Pos. | Nachricht                                                       |
-|------|-----------------------------------------------------------------|
-| P    | `Speyer Info`, `DEPHS`, Guten Tag.                              |
-| I    | `DEPHS`, `Speyer Info`, Hallo.                                  |
-| P    | `DEPHS`, `<zur Platzrunde / VFR über Sierra / Rundflug / ...>`. |
-| I    | `DHS`, Piste `17` in Betrieb, Qnh `1017`.                       |
-| P    | `DHS`, Piste `17` in Betrieb, Qnh `1017`.                       |
-| P    | `DHS`, Rollhalt `17`, abflugbereit.                             |
-| I    | `DHS`, *Wind 170, 12 Knoten*.                                   |
-| P    | `DHS`, Starte auf Piste `17`.                                   |
+| Pos. | Nachricht                                                                                  |
+|------|--------------------------------------------------------------------------------------------|
+| P    | `Speyer Info`, `DEPHS`, Guten Tag.                                                         |
+| I    | `DEPHS`, `Speyer Info`, Hallo.                                                             |
+| P    | `DEPHS`, `<zur Platzrunde / VFR über Sierra / Rundflug / ...>`, erbitte Rollinformationen. |
+| I    | `DHS`, Piste `17` in Betrieb, Qnh `1017`.                                                  |
+| P    | `DHS`, Piste `17` in Betrieb, Qnh `1017`.                                                  |
+| P    | `DHS`, Rollhalt `17`, (warten auf ).                                                       |
+| I    | `DHS`, *Wind 170, 12 Knoten*.                                                              |
+| P    | `DHS`, Starte auf Piste `17`.                                                              |
 
 Verlässt man die Platzrunde, so meldet man sich ab.
 
-| Pos. | Nachricht                                                     |
-|------|---------------------------------------------------------------|
-| P    | `DHS`, verlässt die Platzrunde in Richtung Süden, Tschüss.    |
-| I    | `DHS`, verstanden, Verlassen der Frequenz genehmigt, Tschüss. |
+| Pos. | Nachricht                                         |
+|------|---------------------------------------------------|
+| P    | `DHS`, verlässt die Platzrunde in Richtung Süden. |
+| I    | `DHS`, verstanden, Tschüss.                       |
+| P    | `DHS`, verlasse ihre Frequenz.                    |
 
 Verlässt man nicht die Platzrunde, sondern will Platzrunden drehen, so meldet man sich einfach wieder im Gegenanflug.
 
@@ -97,16 +98,17 @@ Verlässt man nicht die Platzrunde, sondern will Platzrunden drehen, so meldet m
 | P    | `Speyer Info`, `DEPHS`, Guten Tag.                                                                                              |
 | I    | `DEPHS`, `Speyer Info`, Hallo.                                                                                                  |
 | P    | `DEPHS`, `<Cessna 172, VFR-Flug, 5 Minuten westlich Speyer>`, erbitte Landeinformationen.                                       |
-| I    | `DHS`, Piste `35` in Betrib, Qnh `1016`, melden Sie den rechten Gegenanflug zur Piste `35`.                                     |
-| P    | `DHS`, Piste `35` in Betrieb und Qnh `1016`, werden uns im rechten Gegenanflug zur Piste `35` melden.                           |
-| P    | `DHS`, im rechten Gegenanflug zur Piste `35`.                                                                                   |
-| I    | `DHS`, verstanden, melden Sie rechten Queranflug, `<achten Sie auf Segelflug / Fallschirmspringer / ...>.`                      |
+| I    | `DHS`, Piste `35` in Betrib, Qnh `1016`, melden Sie den (rechten) Gegenanflug zur Piste `35`.                                   |
+| P    | `DHS`, Piste `35` in Betrieb und Qnh `1016`, werden uns im (rechten) Gegenanflug zur Piste `35` melden.                         |
+| P    | `DHS`, `<fliege in den (rechten) Gegenanflug, Piste 35 / im (rechten) Gegenanflug zur Piste 35>`.                               |
+| I    | `DHS`, verstanden, melden Sie (rechten) Queranflug, `<achten Sie auf Segelflug / Fallschirmspringer / ...>.`                    |
 |      |                                                                                                                                 |
-| P    | `DHS`, im rechten Quernanflug Piste `35`.                                                                                       |
+| P    | `DHS`, im (rechten) Queranflug Piste `35`.                                                                                      |
 | I    | `DHS`, verstanden, melden Sie den Endanflug Piste `35`.                                                                         |
 |      |                                                                                                                                 |
 | P    | `DHS`, Endanflug Piste `35`.                                                                                                    |
 | I    | `DHS`, *Wind 020 mit 9 Knoten.*                                                                                                 |
+| P    | `DHS`, habe die Piste `35` verlassen.                                                                                           |
 |      |                                                                                                                                 |
 | P    | `DHS`, vor Piste 17, zum Überqueren.                                                                                            |
 | I    | `DHS`, `<kein gemeldeter Verkehr in der Platzrunde / Cessna 172 im Queranflug zu Piste 17 / Überqueren nach eigenem Ermessen>`. |

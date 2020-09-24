@@ -16,6 +16,7 @@ Rollen: P - Pilot, G - Ground, T - Tower
 | P    | `DHS`, abflugbereit.                                                                                                                  |
 | G    | `DHS`, verstanden, rufen Sie Turm auf Frequenz `126,85`.                                                                              |
 | P    | `DHS`, rufe Turm auf Frequenz `126,85`.                                                                                               |
+|      |                                                                                                                                       |
 | P    | `Münster Turm`, `DEPHS`, Rollhalt Piste `25`, auf Rollbahn `Alpha`, abflugbereit.                                                     |
 | T    | `DEPHS`, `Münster Turm`, `<hinter landender Cessna 172 im Queranflug>` rollen Sie zum Abflugpunkt Piste `25`.                         |
 | P    | `DEPHS`, `<hinter landender Cessna 172>` rolle zum Abflugpunkt `25`.                                                                  |
@@ -100,10 +101,13 @@ Verlässt man nicht die Platzrunde, sondern will Platzrunden drehen, so meldet m
 | P    | `DHS`, Piste `35` in Betrieb und Qnh `1016`, werden uns im rechten Gegenanflug zur Piste `35` melden.                           |
 | P    | `DHS`, im rechten Gegenanflug zur Piste `35`.                                                                                   |
 | I    | `DHS`, verstanden, melden Sie rechten Queranflug, `<achten Sie auf Segelflug / Fallschirmspringer / ...>.`                      |
+|      |                                                                                                                                 |
 | P    | `DHS`, im rechten Quernanflug Piste `35`.                                                                                       |
 | I    | `DHS`, verstanden, melden Sie den Endanflug Piste `35`.                                                                         |
+|      |                                                                                                                                 |
 | P    | `DHS`, Endanflug Piste `35`.                                                                                                    |
 | I    | `DHS`, *Wind 020 mit 9 Knoten.*                                                                                                 |
+|      |                                                                                                                                 |
 | P    | `DHS`, vor Piste 17, zum Überqueren.                                                                                            |
 | I    | `DHS`, `<kein gemeldeter Verkehr in der Platzrunde / Cessna 172 im Queranflug zu Piste 17 / Überqueren nach eigenem Ermessen>`. |
 | P    | `DHS`, verstanden.                                                                                                              |

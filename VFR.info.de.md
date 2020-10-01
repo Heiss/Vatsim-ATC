@@ -42,7 +42,7 @@ Verlässt man nicht die Platzrunde, sondern will Platzrunden drehen, so meldet m
 | P    | `Speyer Info`, `DEPHS`, Guten Tag.                                                                                              |
 | I    | `DEPHS`, `Speyer Info`, Hallo.                                                                                                  |
 | P    | `DEPHS`, `<Cessna 172, VFR-Flug, 5 Minuten westlich Speyer>`, erbitte Landeinformationen.                                       |
-| I    | `DHS`, Piste `35` in Betrib, Qnh `1016`, melden Sie den (rechten) Gegenanflug zur Piste `35`.                                   |
+| I    | `DHS`, Piste `35` in Betrieb, Qnh `1016`, melden Sie den (rechten) Gegenanflug zur Piste `35`.                                  |
 | P    | `DHS`, Piste `35` in Betrieb und Qnh `1016`, werden uns im (rechten) Gegenanflug zur Piste `35` melden.                         |
 | P    | `DHS`, `<fliege in den (rechten) Gegenanflug, Piste 35 / im (rechten) Gegenanflug zur Piste 35>`.                               |
 | I    | `DHS`, verstanden, melden Sie (rechten) Queranflug, `<achten Sie auf Segelflug / Fallschirmspringer / ...>.`                    |
@@ -57,3 +57,15 @@ Verlässt man nicht die Platzrunde, sondern will Platzrunden drehen, so meldet m
 | P    | `DHS`, vor Piste 17, zum Überqueren.                                                                                            |
 | I    | `DHS`, `<kein gemeldeter Verkehr in der Platzrunde / Cessna 172 im Queranflug zu Piste 17 / Überqueren nach eigenem Ermessen>`. |
 | P    | `DHS`, verstanden.                                                                                                              |
+
+### Anflug ohne Info
+| Pos. | Nachricht                                                                                                             |
+|------|-----------------------------------------------------------------------------------------------------------------------|
+| P    | `Speyer Verkehr`, `DEPHS`, `<Cessna 172, VFR-Flug, 5 Minuten westlich Speyer>`, zur Landung.                          |
+|      |                                                                                                                       |
+| P    | `Speyer Verkehr`, `DEPHS`, `<fliege in den (rechten) Gegenanflug, Piste 35 / im (rechten) Gegenanflug zur Piste 35>`. |
+|      |                                                                                                                       |
+| P    | `Speyer Verkehr`, `DEPHS`, im (rechten) Queranflug Piste `35`.                                                        |
+|      |                                                                                                                       |
+| P    | `Speyer Verkehr`, `DEPHS`, Endanflug Piste `35`.                                                                      |
+| P    | `Speyer Verkehr`, `DEPHS`, habe die Piste `35` verlassen.                                                             |

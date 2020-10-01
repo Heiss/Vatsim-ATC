@@ -64,18 +64,12 @@ Rollen: P = Pilot, T = Turm
 | P    | `DEPHS`, `Cessna 172`, VFR `<von Hamburg nach Varrelbusch>`, `5 Meilen nördlich von November`, Flughöhe `2000` Fuss, erbitte Einflug in die Kontrollzone über `November` und Verlassen über `Whiskey`. |
 | T    | `DEPHS`, verstanden, fliegen Sie in die Kontrollzone über `November`, melden Sie November und Squawk `7001`.                                                                                           |
 | P    | `DEPHS`, fliege in die Kontrollzone über `November`, melde `November` und Squawk `7001`.                                                                                                               |
-
-Beim VRP `November`:
-
-| Pos. | Nachricht                                        |
-|------|--------------------------------------------------|
-| P    | `DEPHS`, `November`, Flughöhe `2000` Fuss        |
-| T    | `DHS`, verstanden, fliegen Sie direkt `Whiskey`. |
-| P    | `DHS`, fliege direkt `Whiskey`.                  |
-
-Beim VRP `Whiskey`:
-| Pos. | Nachricht                                                    |
-|------|--------------------------------------------------------------|
-| P    | `DEPHS`, `Whiskey`, Flughöhe `2000` Fuss.                    |
-| T    | `DEPHS`, verlassen der Flugfrequenz genehmigt, schönen Flug. |
-| P    | `DEPHS`, verlassen der Flugfrequenz genehmigt, schönen Tag.  |
+|      |                                                                                                                                                                                                        |
+| P    | `DEPHS`, `November`, Flughöhe `2000` Fuss                                                                                                                                                              |
+| T    | `DHS`, verstanden, fliegen Sie direkt `Whiskey`.                                                                                                                                                       |
+| P    | `DHS`, fliege direkt `Whiskey`.                                                                                                                                                                        |
+| ---  | --------------------------------------------------------------                                                                                                                                         |
+|      |                                                                                                                                                                                                        |
+| P    | `DEPHS`, `Whiskey`, Flughöhe `2000` Fuss.                                                                                                                                                              |
+| T    | `DEPHS`, verlassen der Flugfrequenz genehmigt, schönen Flug.                                                                                                                                           |
+| P    | `DEPHS`, verlassen der Flugfrequenz genehmigt, schönen Tag.                                                                                                                                            |

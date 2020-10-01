@@ -68,7 +68,6 @@ Rollen: P = Pilot, T = Turm
 | P    | `DEPHS`, `November`, Flughöhe `2000` Fuss                                                                                                                                                              |
 | T    | `DHS`, verstanden, fliegen Sie direkt `Whiskey`.                                                                                                                                                       |
 | P    | `DHS`, fliege direkt `Whiskey`.                                                                                                                                                                        |
-| ---  | --------------------------------------------------------------                                                                                                                                         |
 |      |                                                                                                                                                                                                        |
 | P    | `DEPHS`, `Whiskey`, Flughöhe `2000` Fuss.                                                                                                                                                              |
 | T    | `DEPHS`, verlassen der Flugfrequenz genehmigt, schönen Flug.                                                                                                                                           |
